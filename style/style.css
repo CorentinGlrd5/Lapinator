@@ -1,0 +1,320 @@
+@media screen and (min-width: 769px) {
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  html .container,
+  body .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+  }
+  html .container .container-left,
+  body .container .container-left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    z-index: 1;
+  }
+  html .container .container-left .lp-menu,
+  body .container .container-left .lp-menu {
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  html .container .container-left .lp-menu .logo,
+  body .container .container-left .lp-menu .logo {
+    height: 50px;
+  }
+  html .container .container-left .lp-menu ul,
+  body .container .container-left .lp-menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  html .container .container-left .lp-menu ul .active,
+  body .container .container-left .lp-menu ul .active {
+    color: #1E90FF;
+    border-bottom: 2px solid;
+  }
+  html .container .container-left .lp-menu ul li a,
+  body .container .container-left .lp-menu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #666;
+  }
+  html .container .container-left .lp-menu ul li:hover,
+  body .container .container-left .lp-menu ul li:hover {
+    color: #1E90FF;
+    border-bottom: 2px solid;
+  }
+  html .container .container-left header,
+  body .container .container-left header {
+    display: none;
+  }
+  html .container .container-left .description,
+  body .container .container-left .description {
+    padding-left: 15%;
+    margin-top: 25%;
+  }
+  html .container .container-left .description h1,
+  body .container .container-left .description h1 {
+    margin-bottom: 0;
+    font-size: 48px;
+  }
+  html .container .container-left .description p,
+  body .container .container-left .description p {
+    margin-top: 0;
+    font-size: 13px;
+    color: #666;
+  }
+  html .container .container-left .container-form,
+  body .container .container-left .container-form {
+    background: white;
+    -webkit-box-shadow: 0 0px 20px rgba(156, 156, 156, 0.19);
+            box-shadow: 0 0px 20px rgba(156, 156, 156, 0.19);
+    border-radius: 50px;
+    margin-left: 6%;
+    margin-top: 15%;
+    width: 110%;
+    height: 58px;
+  }
+  html .container .container-left .container-form .cf-form,
+  body .container .container-left .container-form .cf-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 120%;
+    height: 58px;
+    margin-bottom: 0px;
+  }
+  html .container .container-left .container-form .cf-form .icon2,
+  body .container .container-left .container-form .cf-form .icon2 {
+    width: 25px;
+    margin: 22px;
+    opacity: 0.2;
+  }
+  html .container .container-left .container-form .cf-form input,
+  body .container .container-left .container-form .cf-form input {
+    border: none;
+    width: 150%;
+    height: 58px;
+    font-size: 18px;
+    color: #666;
+  }
+  html .container .container-left .container-form .cf-form button,
+  body .container .container-left .container-form .cf-form button {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 50px;
+    border: none;
+    background: #50e3c2;
+    color: white;
+    width: 450px;
+    height: 52px;
+    padding: 0;
+  }
+  html .container .container-left .container-form .cf-form button:hover,
+  body .container .container-left .container-form .cf-form button:hover {
+    background-color: white;
+    color: #50e3c2;
+    border-style: solid;
+    border-width: 2px;
+  }
+  html .container .container-left .prevention,
+  body .container .container-left .prevention {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+    margin-top: 50px;
+    opacity: 0.5;
+  }
+  html .container .container-right,
+  body .container .container-right {
+    -webkit-box-flex: 1.5;
+        -ms-flex: 1.5;
+            flex: 1.5;
+    background: url("../image/amster.jpg") no-repeat center;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  html .container,
+  body .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  html .container .container-left,
+  body .container .container-left {
+    width: 100%;
+    height: 100%;
+    background: url("../image/Group.svg") no-repeat top;
+    background-size: cover;
+  }
+  html .container .container-left .lp-menu,
+  body .container .container-left .lp-menu {
+    display: none;
+  }
+  html .container .container-left .mobile-container #nav,
+  body .container .container-left .mobile-container #nav {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background: white;
+    background: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  html .container .container-left .mobile-container #nav .logo,
+  body .container .container-left .mobile-container #nav .logo {
+    width: auto;
+    height: 30px;
+  }
+  html .container .container-left .mobile-container #nav #lp-n-links,
+  body .container .container-left .mobile-container #nav #lp-n-links {
+    display: none;
+    background: white;
+  }
+  html .container .container-left .mobile-container #nav #lp-n-links a,
+  body .container .container-left .mobile-container #nav #lp-n-links a {
+    text-align: center;
+  }
+  html .container .container-left .mobile-container #nav #lp-n-links a.active,
+  body .container .container-left .mobile-container #nav #lp-n-links a.active {
+    color: #1E90FF;
+    border-bottom: 2px solid;
+  }
+  html .container .container-left .mobile-container #nav #lp-n-links a:hover,
+  body .container .container-left .mobile-container #nav #lp-n-links a:hover {
+    color: #1E90FF;
+  }
+  html .container .container-left .mobile-container #nav a,
+  body .container .container-left .mobile-container #nav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  html .container .container-left .mobile-container #nav a.icon,
+  body .container .container-left .mobile-container #nav a.icon {
+    color: black;
+    display: block;
+    right: 0;
+    top: 0;
+    font-size: 30px;
+    opacity: 0.5;
+  }
+  html .container .container-left .description,
+  body .container .container-left .description {
+    margin-top: 250px;
+    text-align: center;
+  }
+  html .container .container-left .description h1,
+  body .container .container-left .description h1 {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+  html .container .container-left .description p,
+  body .container .container-left .description p {
+    margin-top: 0;
+    font-size: 13px;
+    color: #666;
+  }
+  html .container .container-left .container-form,
+  body .container .container-left .container-form {
+    background: white;
+    -webkit-box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    width: 85%;
+    height: 58px;
+    margin: 18% auto 0px auto;
+  }
+  html .container .container-left .container-form .cf-form,
+  body .container .container-left .container-form .cf-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 58px;
+    margin-bottom: 0px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border-radius: 50px;
+  }
+  html .container .container-left .container-form .cf-form .icon2,
+  body .container .container-left .container-form .cf-form .icon2 {
+    font-size: 1em;
+    margin: 22px auto;
+    opacity: 0.2;
+  }
+  html .container .container-left .container-form .cf-form input,
+  body .container .container-left .container-form .cf-form input {
+    border: none;
+    color: gray;
+    width: 80%;
+    height: 58px;
+    font-size: 18px;
+    border-radius: 50px;
+    padding-right: 5%;
+  }
+  html .container .container-left .container-form .cf-form button,
+  body .container .container-left .container-form .cf-form button {
+    border-radius: 50px;
+    border: none;
+    background: #50e3c2;
+    color: white;
+    width: 50%;
+    height: 48px;
+    padding: 0;
+    margin: 35px auto 3px auto;
+  }
+  html .container .container-left .container-form .cf-form button:hover,
+  body .container .container-left .container-form .cf-form button:hover {
+    background-color: white;
+    color: #50e3c2;
+    border-style: solid;
+    border-width: 2px;
+  }
+  html .container .container-left .prevention,
+  body .container .container-left .prevention {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+    margin-top: 150px;
+    opacity: 0.5;
+  }
+  html .container .container-right,
+  body .container .container-right {
+    display: none;
+  }
+}

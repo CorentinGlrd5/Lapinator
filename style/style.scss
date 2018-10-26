@@ -1,0 +1,255 @@
+@media screen and (min-width: 769px) {
+    html,
+    body {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        .container {
+            display: flex;
+            height: 100%;
+            .container-left {
+                flex: 1;
+                z-index: 1;
+                .lp-menu {
+                    padding: 20px;
+                    display: flex;
+                    .logo {
+                        height: 50px;
+                    }
+                    ul {
+                        list-style-type: none;
+                        margin: 0px;
+                        padding: 0px;
+                        display: flex;
+                        width: 100%;
+                        justify-content: space-evenly;
+                        .active {
+                            color: #1E90FF;
+                            border-bottom: 2px solid;
+                        }
+                        li a {
+                            display: block;
+                            padding: 10px;
+                            text-decoration: none;
+                            color: #666;
+                        }
+                        li:hover {
+                            color: #1E90FF;
+                            border-bottom: 2px solid;
+                        }
+                    }
+                }
+                header {
+                    display: none;
+                }
+                .description {
+                    padding-left: 15%;
+                    margin-top: 25%;
+                    h1 {
+                        margin-bottom: 0;
+                        font-size: 48px;
+                    }
+                    p {
+                        margin-top: 0;
+                        font-size: 13px;
+                        color: #666;
+                    }
+                }
+                .container-form {
+                    background: white;
+                    box-shadow: 0 0px 20px rgba(156, 156, 156, 0.19);
+                    border-radius: 50px;
+                    margin-left: 6%;
+                    margin-top: 15%;
+                    width: 110%;
+                    height: 58px;
+                    .cf-form {
+                        display: flex;
+                        width: 120%;
+                        height: 58px;
+                        margin-bottom: 0px;
+                        .icon2 {
+                            width: 25px;
+                            margin: 22px;
+                            opacity: 0.2;
+                        }
+                        input {
+                            border: none;
+                            width: 150%;
+                            height: 58px;
+                            font-size: 18px;
+                            color: #666;
+                        }
+                        button {
+                            margin-top: 3px;
+                            margin-bottom: 3px;
+                            border-radius: 50px;
+                            border: none;
+                            background: #50e3c2;
+                            color: white;
+                            width: 450px;
+                            height: 52px;
+                            padding: 0;
+                            &:hover {
+                                background-color: white;
+                                color: #50e3c2;
+                                border-style: solid;
+                                border-width: 2px;
+                            }
+                        }
+                    }
+                }
+                .prevention {
+                    text-align: center;
+                    font-style: italic;
+                    color: gray;
+                    margin-top: 50px;
+                    opacity: 0.5;
+                }
+            }
+            .container-right {
+                flex: 1.5;
+                background: url('../image/amster.jpg') no-repeat center;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html,
+    body {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        .container {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            .container-left {
+                width: 100%;
+                height: 100%;
+                background: url('../image/Group.svg') no-repeat top;
+                background-size: cover;
+                .lp-menu {
+                    display: none;
+                }
+                .mobile-container {
+                    #nav {
+                        position: fixed;
+                        width: 100%;
+                        height: auto;
+                        background: white;
+                        background: none;
+                        display: flex;
+                        justify-content: space-between;
+                        .logo {
+                            width: auto;
+                            height: 30px;
+                        }
+                        #lp-n-links {
+                            display: none;
+                            background: white;
+                            a {
+                                text-align: center;
+                                &.active {
+                                    color: #1E90FF;
+                                    border-bottom: 2px solid;
+                                }
+                                &:hover {
+                                    color: #1E90FF;
+                                }
+                            }
+                        }
+                        a {
+                            color: black;
+                            padding: 14px 16px;
+                            text-decoration: none;
+                            font-size: 17px;
+                            display: block;
+                            &.icon {
+                                color: black;
+                                display: block;
+                                right: 0;
+                                top: 0;
+                                font-size: 30px;
+                                opacity: 0.5;
+                            }
+                        }
+                    }
+                }
+                .description {
+                    margin-top: 250px;
+                    text-align: center;
+                    h1 {
+                        margin-bottom: 0;
+                        font-size: 40px;
+                    }
+                    p {
+                        margin-top: 0;
+                        font-size: 13px;
+                        color: #666;
+                    }
+                }
+                .container-form {
+                    background: white;
+                    box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.5);
+                    border-radius: 50px;
+                    width: 85%;
+                    height: 58px;
+                    margin: 18% auto 0px auto;
+                    .cf-form {
+                        display: flex;
+                        width: 100%;
+                        height: 58px;
+                        margin-bottom: 0px;
+                        flex-wrap: wrap;
+                        border-radius: 50px;
+                        .icon2 {
+                            font-size: 1em;
+                            margin: 22px auto;
+                            opacity: 0.2;
+                        }
+                        input {
+                            border: none;
+                            color: gray;
+                            width: 80%;
+                            height: 58px;
+                            font-size: 18px;
+                            border-radius: 50px;
+                            padding-right: 5%;
+                        }
+                        button {
+                            border-radius: 50px;
+                            border: none;
+                            background: #50e3c2;
+                            color: white;
+                            width: 50%;
+                            height: 48px;
+                            padding: 0;
+                            margin: 35px auto 3px auto;
+                            &:hover {
+                                background-color: white;
+                                color: #50e3c2;
+                                border-style: solid;
+                                border-width: 2px;
+                            }
+                        }
+                    }
+                }
+                .prevention {
+                    text-align: center;
+                    font-style: italic;
+                    color: gray;
+                    margin-top: 150px;
+                    opacity: 0.5;
+                }
+            }
+            .container-right {
+                display: none;
+            }
+        }
+    }
+}
